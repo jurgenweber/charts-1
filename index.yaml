@@ -1,30 +1,5 @@
 apiVersion: v1
 entries:
-  httpbingo:
-  - annotations:
-      artifacthub.io/changes: |
-        - "Initial version"
-      artifacthub.io/images: |
-        - name: go-httpbin
-          image: mccutchen/go-httpbin:v2.2.2
-    apiVersion: v2
-    appVersion: v2.2.2
-    created: "2021-12-14T03:49:34.431401854Z"
-    description: A reasonably complete and well-tested golang port of httpbin, with
-      zero dependencies outside the go stdlib.
-    digest: 2c7a881d80360b2ff87822f106ef12be70c693984e0b0f8a940b8c65810202f5
-    home: https://github.com/estahn/charts/tree/main/charts/httpbingo
-    keywords:
-    - httpbin
-    - tests
-    maintainers:
-    - email: enrico.stahn@gmail.com
-      name: estahn
-    name: httpbingo
-    type: application
-    urls:
-    - https://github.com/jurgenweber/charts-1/releases/download/httpbingo-0.1.0/httpbingo-0.1.0.tgz
-    version: 0.1.0
   k8s-image-swapper:
   - annotations:
       artifacthub.io/changes: |
@@ -34,9 +9,9 @@ entries:
           image: ghcr.io/estahn/k8s-image-swapper:1.1.0
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-12-14T03:49:34.58821526Z"
+    created: "2021-12-14T04:45:21.113695917Z"
     description: Mirror images into your own registry and swap image references automatically.
-    digest: 10b54c4e0540884013512058615d705e2b71c8cff90f73ce43c79a3f84c63a16
+    digest: 7684f6e2f6e6eac68835ebb1b72dcd729d3045d60a2260959b7ea147e1b5c5df
     home: https://github.com/estahn/charts/tree/main/charts/k8s-image-swapper
     keywords:
     - kubernetes
@@ -49,6 +24,6 @@ entries:
     name: k8s-image-swapper
     type: application
     urls:
-    - https://github.com/jurgenweber/charts-1/releases/download/k8s-image-swapper-1.0.1/k8s-image-swapper-1.0.1.tgz
-    version: 1.0.1
-generated: "2021-12-14T03:49:34.588220661Z"
+    - https://github.com/jurgenweber/charts-1/releases/download/k8s-image-swapper-1.0.2/k8s-image-swapper-1.0.2.tgz
+    version: 1.0.2
+generated: "2021-12-14T04:45:21.113701817Z"
